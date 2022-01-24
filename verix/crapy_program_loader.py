@@ -1,6 +1,7 @@
 # @category endes.verix
 
 # This only fixes the memory blocks, someday i will made a PL
+# maybe following this guide https://wrongbaud.github.io/posts/writing-a-ghidra-loader/
 
 memory = currentProgram.getMemory()
 af = currentProgram.getAddressFactory()
